@@ -4,6 +4,13 @@ package models;
 import models.enums.Category;
 import models.enums.GameType;
 
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="board_games")
 public class BoardGame extends Advert {
 
     private GameType gameType;
@@ -15,5 +22,11 @@ public class BoardGame extends Advert {
         this.gameType = gameType;
     }
 
-
+    @Enumerated(value=EnumType.STRING)
+    public GameType getGameType() {
+        return gameType;
+    }
+    public void setGameType(GameType gameType) {
+        this.gameType = gameType;
+    }
 }

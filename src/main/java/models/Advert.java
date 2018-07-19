@@ -6,6 +6,8 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "adverts")
+@Inheritance(strategy = InheritanceType.JOINED)
+//@DiscriminatorColumn(name="advert_category")
 public class Advert {
 
     private int id;
@@ -31,7 +33,7 @@ public class Advert {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     public int getId() { return id; }
-    public void setId() { this.id = id; }
+    public void setId(int id) { this.id = id; }
 
     @Column(name="title")
     public String getTitle() {

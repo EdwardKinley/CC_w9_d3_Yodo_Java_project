@@ -5,6 +5,10 @@ import models.enums.Category;
 import models.enums.Console;
 import models.enums.GameType;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name="computer_games")
 public class ComputerGame extends Advert {
 
     private Console console;
@@ -20,6 +24,27 @@ public class ComputerGame extends Advert {
         this.gameType = gameType;
     }
 
+    @Enumerated(value=EnumType.STRING)
+    public Console getConsole() {
+        return console;
+    }
+    public void setConsole(Console console) {
+        this.console = console;
+    }
 
+    @Enumerated(value=EnumType.STRING)
+    public AgeClassification getAgeClassification() {
+        return ageClassification;
+    }
+    public void setAgeClassification(AgeClassification ageClassification) {
+        this.ageClassification = ageClassification;
+    }
 
+    @Enumerated(value=EnumType.STRING)
+    public GameType getGameType() {
+        return gameType;
+    }
+    public void setGameType(GameType gameType) {
+        this.gameType = gameType;
+    }
 }

@@ -4,6 +4,10 @@ import models.enums.Category;
 import models.enums.Format;
 import models.enums.Genre;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name="books")
 public class Book extends Advert {
 
     private Genre genre;
@@ -17,5 +21,19 @@ public class Book extends Advert {
         this.format = format;
     }
 
+    @Enumerated(EnumType.STRING)
+    public Genre getGenre() {
+        return genre;
+    }
+    public void setGenre(Genre genre) {
+        this.genre = genre;
+    }
 
+    @Enumerated(EnumType.STRING)
+    public Format getFormat() {
+        return format;
+    }
+    public void setFormat(Format format) {
+        this.format = format;
+    }
 }
