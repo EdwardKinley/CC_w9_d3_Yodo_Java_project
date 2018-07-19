@@ -11,6 +11,7 @@ public enum GameType {
     WORD,
     LUCK,
     SCIFI,
+    NUMBER,
     OTHER
 
 }
