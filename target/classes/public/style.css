@@ -24,6 +24,16 @@ table {
     font-size: 1.5rem;
 }
 
+#edit_button {
+    color: blue;
+    background-color: lightblue;
+}
+
+#delete_button {
+    color: green;
+    background-color: lightgreen;
+}
+
 input[type="submit" i] {
     color: maroon;
     background-color: white;
@@ -33,4 +43,8 @@ input[type="submit" i] {
 
 input[type="submit" i]:hover {
     background-color: lightgrey;
+}
+
+editbutton {
+    color: blue;
 }

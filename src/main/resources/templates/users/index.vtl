@@ -12,8 +12,8 @@
             <!--<td><a href="/users/$user.getId()">$user.getId()</a></td>-->
             <td>$user.getUsername()</td>
             <td>$user.getCredit()</td>
-            <td><a href="/users/$user.getId()/edit" class="button center">Edit</a></td>
-            <td><form action="/users/$user.getId()/delete" class="button center" method="post"><input type="submit" value="Delete"></form></td>
+            <td><form action="/users/$user.getId()/edit"><input type="submit" id="edit_button" value="Edit"></form></td>
+            <td><form action="/users/$user.getId()/delete" method="post"><input type="submit" id="delete_button" value="Delete"></form></td>
         </tr>
         #end
     </table>
