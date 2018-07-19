@@ -13,19 +13,14 @@ import java.util.Map;
 import static spark.Spark.get;
 import static spark.SparkBase.staticFileLocation;
 
+
 public class UsersController {
 
-    public static void main(String[] args) {
-        VelocityTemplateEngine velocityTemplateEngine = new VelocityTemplateEngine();
-        staticFileLocation("/public");
+    public UsersController() {
+        this.setupEndpoints();
+    }
 
-        Seeds.seedData();
-
-//        AdvertsController advertsController = new AdvertsController;
-//        ComputerGamesController computerGamesController = new ComputerGamesController;
-//        BooksController BooksController = new BooksController;
-//        BicyclesController bicyclesController = new BicyclesController;
-//        BoardGamesController boardGamesController = new BoardGamesController;
+    private void setupEndpoints() {
 
         get("/users", (req, res) -> {
             Map<String, Object> model = new HashMap<>();
