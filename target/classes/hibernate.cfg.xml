@@ -15,10 +15,10 @@
         <property name="show_sql">true</property>
 
         <mapping class = "models.User"/>
-        <mapping class= "models.Advert"/>
+        <mapping class = "models.Advert"/>
         <mapping class = "models.ComputerGame"/>
-        <mapping class="models.Book"/>
-        <mapping class="models.Bicycle"/>
-        <mapping class="models.BoardGame"/>
+        <mapping class = "models.Book"/>
+        <mapping class = "models.Bicycle"/>
+        <mapping class = "models.BoardGame"/>
     </session-factory>
 </hibernate-configuration>

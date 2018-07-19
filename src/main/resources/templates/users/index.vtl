@@ -1,0 +1,23 @@
+<p class="pageHeader">All Users</p>
+
+<div class="container">
+    <table>
+        <tr>
+            <!--<th>id</th>-->
+            <th>Username</th>
+            <th>Credit</th>
+        </tr>
+        #foreach ($user in $users)
+        <tr>
+            <!--<td><a href="/users/$user.getId()">$user.getId()</a></td>-->
+            <td>$user.getUsername()</td>
+            <td>$user.getCredit()</td>
+            <td><a href="/users/$user.getId()/edit" class="button center">Edit</a></td>
+            <td><form action="/users/$user.getId()/delete" class="button center" method="post"><input type="submit" value="Delete"></form></td>
+        </tr>
+        #end
+    </table>
+</div>
+
+
+
