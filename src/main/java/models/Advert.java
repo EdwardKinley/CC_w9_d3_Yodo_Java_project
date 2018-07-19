@@ -27,7 +27,13 @@ public class Advert {
         this.user = user;
     }
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
+    public int getId() { return id; }
+    public void setId() { this.id = id; }
+
+    @Column(name="title")
     public String getTitle() {
         return title;
     }
@@ -35,7 +41,7 @@ public class Advert {
         this.title = title;
     }
 
-    @Column(name="name")
+    @Column(name="description")
     public String getDescription() {
         return description;
     }
@@ -54,6 +60,10 @@ public class Advert {
     @Enumerated(value=EnumType.STRING)
     public Category getCategory() { return category; }
     public void setCategory(Category category) { this.category = category; }
+
+    @Column(name="image_url")
+    public String getImageUrl() { return imageUrl; }
+    public void setImageUrl(String imageUrl) { this.imageUrl = imageUrl; }
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="user_id")

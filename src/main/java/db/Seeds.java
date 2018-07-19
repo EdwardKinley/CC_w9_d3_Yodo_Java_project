@@ -2,7 +2,9 @@ package db;
 
 import models.*;
 import models.enums.AgeClassification;
+import models.enums.Category;
 import models.enums.Console;
+import models.enums.GameType;
 
 public class Seeds {
 
@@ -31,14 +33,15 @@ public class Seeds {
         User user8 = new User("Humphrey", 5);
         DBHelper.save(user8);
 
-        ComputerGame computerGame1 = new ComputerGame("Sonic the Hedgehog", "1991 Sega game", 5, "url1", user1, Console.SEGA_GENESIS, AgeClassification.THREE);
+        ComputerGame computerGame1 = new ComputerGame("Sonic the Hedgehog", "1991 Sega game", 5, "url1", user1, Console.SEGA_GENESIS, AgeClassification.THREE, GameType.ACTION);
         DBHelper.save(computerGame1);
-        ComputerGame computerGame2 = new ComputerGame("Mario Bros.", "Mario and Luigi in the sewers!", 6, "url2", user2, Console.GAMEBOY, AgeClassification.THREE);
+        ComputerGame computerGame2 = new ComputerGame("Mario Bros.", "Mario and Luigi in the sewers!", 6, "url2", user2, Console.GAMEBOY, AgeClassification.THREE, GameType.ACTION);
         DBHelper.save(computerGame2);
-        ComputerGame computerGame3 = new ComputerGame("Men in Black", "Mr Smith and Mr Jones battle the aliens in this fun game.", 8, "url3", user2, Console.NINTENDO_64, AgeClassification.SEVEN);
+        ComputerGame computerGame3 = new ComputerGame("Men in Black", "Mr Smith and Mr Jones battle the aliens in this fun game.", 8, "url3", user2, Console.NINTENDO_64, AgeClassification.SEVEN, GameType.SCIFI);
         DBHelper.save(computerGame3);
 
 
     }
 
 }
+
