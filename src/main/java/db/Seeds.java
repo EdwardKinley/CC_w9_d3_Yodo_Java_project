@@ -29,6 +29,8 @@ public class Seeds {
         DBHelper.save(user7);
         User user8 = new User("Humphrey", 5);
         DBHelper.save(user8);
+        User user9 = new User("Imogen", 50);
+        DBHelper.save(user9);
 
         ComputerGame computerGame1 = new ComputerGame("Sonic the Hedgehog", "1991 Sega game", 5, "url1", user1, Console.SEGA_GENESIS, AgeClassification.THREE, GameType.ACTION);
         DBHelper.save(computerGame1);

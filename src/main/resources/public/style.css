@@ -1,5 +1,5 @@
 body {
-    background-color: linen;
+    background-color: white;
     color: maroon;
     font-family: verdana;
     text-align: center;
@@ -10,7 +10,7 @@ h1 {
 }
 
 td, th {
-    border: solid black 0.1rem;
+##    border: solid black 0.1rem;
     text-align: left;
 }
 
@@ -25,14 +25,17 @@ table {
 }
 
 #edit_button {
-    color: blue;
-    background-color: lightblue;
+    background-colour: red;
 }
 
 #delete_button {
     color: green;
     background-color: lightgreen;
 }
+
+
+===========================================
+
 
 input[type="submit" i] {
     color: maroon;
@@ -45,6 +48,3 @@ input[type="submit" i]:hover {
     background-color: lightgrey;
 }
 
-editbutton {
-    color: blue;
-}
