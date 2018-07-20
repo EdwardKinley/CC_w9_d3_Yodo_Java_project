@@ -9,6 +9,7 @@ public enum Category {
     CLOTHING,
     CD,
     TOY,
+    MUSIC,
     OTHER
 
 }

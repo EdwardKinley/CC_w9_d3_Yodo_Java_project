@@ -49,4 +49,5 @@ public class User {
     public List<Advert> getAdverts() { return adverts; }
     public void setAdverts(List<Advert> adverts) { this.adverts = adverts; }
 
+
 }
