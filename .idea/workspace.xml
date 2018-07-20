@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b3d5657-ea3e-4f49-96e1-deafa4eaefdd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/DBUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/create.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/edit.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/show.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/YodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/YodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DBHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/Seeds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/Seeds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/index.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/DBHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/DBHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/Seeds.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/Seeds.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/enums/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/enums/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/layout.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/index.vtl" afterDir="false" />
-    </list>
+    <list default="true" id="7b3d5657-ea3e-4f49-96e1-deafa4eaefdd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,8 +91,8 @@
       <file leaf-file-name="show.vtl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users/show.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+            <state relative-caret-position="210">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -505,12 +485,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32363635" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32363635" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32921812" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32969698" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15164521" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.15164521" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32921812" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -794,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users/show.vtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+        <state relative-caret-position="210">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
