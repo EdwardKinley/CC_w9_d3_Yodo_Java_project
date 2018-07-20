@@ -62,3 +62,6 @@ fabric.properties
 
 *.class
 /target
+/target/
+target
+target/
