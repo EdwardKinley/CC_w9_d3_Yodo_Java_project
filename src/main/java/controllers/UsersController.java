@@ -35,8 +35,7 @@ public class UsersController {
             return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
-        get("/hello", (request, response) -> "Hello World!");
-
+        get("/hello", (request, response) -> "Hello World!!");
 
 
         get("/", (request, response) -> {
