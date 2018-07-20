@@ -24,6 +24,9 @@ public class UsersController {
 
         Seeds.seedData();
 
+        ComputerGamesController computerGamesController = new ComputerGamesController;
+
+
         get("/users", (req, res) -> {
             Map<String, Object> model = new HashMap<>();
             model.put("template", "templates/users/index.vtl");
@@ -34,7 +37,15 @@ public class UsersController {
 
         get("/hello", (request, response) -> "Hello World!");
 
-        get("/", (request, response) -> "welcome to the home page!");
+
+
+        get("/", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
+            model.put("template", "templates/home.vtl");
+            return new ModelAndView(model, "templates/layout.vtl");
+        }, new VelocityTemplateEngine());
+
+
 
         get("/users/new", (req, res) -> {
             Map<String, Object> model = new HashMap<>();
