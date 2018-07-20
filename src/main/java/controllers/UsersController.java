@@ -24,7 +24,7 @@ public class UsersController {
 
         Seeds.seedData();
 
-        ComputerGamesController computerGamesController = new ComputerGamesController;
+//        ComputerGamesController computerGamesController = new ComputerGamesController();
 
 
         get("/users", (req, res) -> {
